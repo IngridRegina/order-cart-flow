@@ -11,7 +11,7 @@ from core.models import Product
 
 from products.serializers import ProductSerializer
 
-PRODUCTS_URL = reverse('products:products-list')
+PRODUCTS_URL = reverse('products:products')
 
 
 class ProductAPITests(TestCase):
