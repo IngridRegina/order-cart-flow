@@ -1,3 +1,10 @@
+" Project setup
+
+* make sure you have Docker Desktop installed and running
+* in a terminal, navigate to the project root folder and run `docker-compose build`
+* in the same location, run `docker-compose up`
+* everything should be running, you can visit the swagger documentation page at http://localhost:8000/api/docs
+
 # API General Description
 
 API implements a very simple e-commerce cart/order flow:
