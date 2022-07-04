@@ -1,3 +1,7 @@
+# Introduction
+
+The project uses Django(Python) with Django REST Framework + flake8 for linting 
+
 # Project setup
 
 * make sure you have Docker Desktop installed and running
