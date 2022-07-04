@@ -1,11 +1,9 @@
 """
 Tests for models
 """
-from decimal import Decimal
-
-from django.test import TestCase
 
 from core import models
+from django.test import TestCase
 
 
 class ModelTests(TestCase):
@@ -15,4 +13,4 @@ class ModelTests(TestCase):
         """Test creating an order is successful"""
         order = models.Order.objects.create()
 
-        self.assertEqual(str(order), order.id)
+        self.assertEqual(str(order), str(order.id))
