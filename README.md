@@ -1,4 +1,4 @@
-" Project setup
+# Project setup
 
 * make sure you have Docker Desktop installed and running
 * in a terminal, navigate to the project root folder and run `docker-compose build`
